@@ -17,6 +17,7 @@ public class DemoApplication {
 class HelloController {
     @GetMapping("/")
     public String hello() {
-        return "Hello from Kubernetes 2.0v 🚀 your in updated version";
+        return "Hello from miniKubernetes 🚀 your in updated version";
     }
 }
+
